@@ -1,0 +1,23 @@
+nome = str(input("Informe o seu nome completo: ")).strip()
+print("Analizando seu nome....")
+print("Seu nome em letra:{} ".format(nome.upper()))
+print("Seu nom em letra:{} ".format(nome.lower()))
+print("Seu nome tem ao todo{}".format(len(nome) - nome.count(" ")))
+print("Seu primero nome tem {}".format(nome.find(" ")))
+spr = nome.split()
+print("Seu primero nome é {} e tem {} letras".format(spr[0], len(spr[0])))
+
+
+
+nome = str(input('Digite seu nome completo: ')).strip()
+div = nome.split()
+n1 = nome.upper()
+n2 = nome.lower()
+n3 = len(nome) - nome.count(' ')
+n4 = len(div[0])
+cap = div[0].capitalize()
+print('Analisando seu nome:')
+print(f'Seu nome em maiúsculas é {n1}')
+print(f'Seu nome em minúsculas é {n2}')
+print(f'Seu nome tem ao todo {n3} letras')
+print(f'Seu primeiro nome é {cap} e tem {n4} letras')

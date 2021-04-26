@@ -1,0 +1,16 @@
+listatimes = ("Flamengo","Santos" ,'Palmeiras','Grêmio','Athletico-PR','São Paulo','Internacional','Corinthians',\
+             'Fortaleza','Goiás','Bahia','Vasco','Atlético-MG','Fluminense','Botafogo'	,'Ceará','Cruzeiro'	,'CSA'\
+              ,'Chapecoense'	,'Avaí',)
+print("="*50)
+print("              TABELA BRASILERÂO              ")
+print("="*50)
+print(f"Lista de times do Brasilerão são: {listatimes}")
+print("="*50)
+print(f"Os 5 primeros São :{listatimes[:5]}")
+print("="*50)
+print(f"Os 4 ultimos são :{listatimes[16:]} ")
+print("="*50)
+print(f"Times em ordem alfabéticas:{sorted(listatimes)}")
+print("="*50)
+print(f" O Chapeconese está na {listatimes.index('Chapecoense')+1}º posição")
+print("="*50)
